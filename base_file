@@ -5,7 +5,7 @@ Record Jeanre's and my own screen as we develop some software together
 1 Create a new gem locally 
   bundle gem <name>
 2 Create a new repository on Github and upload the gem
-3 Create a milestone together with semantic versioning
+3 Create a milestone together with semantic versioning.
 4 Add jeanres as a collaborator
 5 Jeanre will explore the issue tracker and notice a milestone
 6 He will create two issues as he analyzes the milestone
