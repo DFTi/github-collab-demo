@@ -1,0 +1,15 @@
+# GitHub Step By Step Guide
+0. Fork it! Point a remote to upstream
+ * `git remote add upstream git@github.com:DFTi/Critique`
+1. Pull upstream master into your own master branch
+ * `git checkout master`
+ * `git pull upstream master`
+2. Create a branch for your feature
+ * `git checkout -b 000_what_is_it` where 000 is the github issue number
+3. Push frequently to your branch 
+ * `git push origin 000_what_is_it`
+4. VainMedia [QA Process](https://github.com/DFTi/Critique/wiki/Critique-Baseline-Functions-QC)
+6. Send a pull request through GitHub
+7. Wait for DFT to review, provide comments, or take action (DFT QA Process)
+8. [Pull Request Accepted] DFT merges code
+9. [Pull Requested Rejected] Fix problems, go back to Steps four and five.
